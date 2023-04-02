@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./mystyle.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!-- Left side -->
+  <div class="board">
+    <section id ="left">
+      <h2 class="left_head">Your Result</h2>
+      <div class="result_box">
+        <h1 class="result_percentage">76</h1>
+        <p class="result_of_100">of 100</p>
+      </div>
+      <div class="statement_box">
+        <h2 class="statement">Great</h2>
+        <div class="detail"> You scored higher than 65% of <br>the people who have taken</br> these tests.</div>
+      </div>
+    </section>  
+    <!-- Right side -->
+    <section id="right">
+      <h2 class="summary">Summary</h2>
+      <div class="summary_box">
+        <div id="excitement_box" class="reaction_box">
+          <div id ="log" class="logo_1">
+            <img src="./assets/images/icon-reaction.svg" >
+            <div class="reaction">Reaction</div>
+          </div>  
+          <div class="percentage_box">
+            <p id="percentage">80</p>
+            <p id="full">/100</p>
+          </div>
+        </div>
+        <div id="excitement_box" class="memory_box">
+          <div id ="log" class="logo_2">
+            <img src="./assets/images/icon-memory.svg" >
+            <div class="memory">Memory</div>
+          </div>  
+          <div class="percentage_box">
+            <p id="percentage">92</p>
+            <p id="full">/100</p>
+          </div>
+        </div>
+        <div id="excitement_box" class="verbal_box">
+          <div id ="log" class="logo_3">
+            <img src="./assets/images/icon-verbal.svg" >
+            <div class="reaction">Verbal</div>
+          </div>  
+          <div class="percentage_box">
+            <p id="percentage">61</p>
+            <p id="full">/100</p>
+          </div>
+        </div>
+        <div id="excitement_box" class="visual_box">
+          <div id ="log" class="logo_4">
+            <img src="./assets/images/icon-visual.svg" >
+            <div class="reaction">Visual</div>
+          </div>  
+          <div class="percentage_box">
+            <p id="percentage">72</p>
+            <p id="full">/100</p>
+          </div>
+        </div>
+          <button type="button">Continue</button>
+      </div>
+    </section>
+  </div>  
+</body>
+</html>
